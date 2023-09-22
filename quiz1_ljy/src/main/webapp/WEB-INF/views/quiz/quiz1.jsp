@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-${quiz }
-${now }
-
+${today}
 </body>
 </html>

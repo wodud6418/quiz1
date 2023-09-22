@@ -14,12 +14,14 @@ public class JDBCTests {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		DriverManager.getConnection("jdbc:mysql://@127.0.0.1"
 				, "aaa", "1234");
-
+	
 	}
-
+	
 	@Test
 	public void aaa() {
 		log.info("잘 나온다.");
 	}
-
+	
 }
+
+

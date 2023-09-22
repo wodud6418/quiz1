@@ -17,15 +17,18 @@ public class DataSourceTests {
 
 	@Autowired
 	private DataSource dataSource;
-
-
+	
+	
 	@Test
 	public void testConnectionPool() throws SQLException {
 		dataSource.getConnection();
 	}
+	
 
-
-
+	
 }
+
+
+
 
 
