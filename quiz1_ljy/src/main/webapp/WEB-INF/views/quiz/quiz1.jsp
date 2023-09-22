@@ -8,6 +8,7 @@
 </head>
 <body>
 ${quiz }
+${now }
 
 </body>
 </html>
