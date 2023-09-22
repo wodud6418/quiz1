@@ -8,4 +8,8 @@
 	<select id="now" resultType="date">
 		select now()
 	</select>
+	
+	<insert id="input">
+	insert into quiztable values(#{num1},#{num2})
+	</insert>
 </mapper>
