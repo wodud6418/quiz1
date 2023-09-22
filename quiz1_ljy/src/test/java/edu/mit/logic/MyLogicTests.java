@@ -16,6 +16,6 @@ public class MyLogicTests {
 	public void test2() {
 		log.info(MyLogic.evenAddUp(1, 10));
 	}
-
+	
 
 }
